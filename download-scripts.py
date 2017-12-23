@@ -1,10 +1,39 @@
 #!python3.6
 import urllib3
 from bs4 import BeautifulSoup
+import re
+
+# A script to download TV & movie scripts from https://www.springfieldspringfield.co.uk/
+
+def get_urls(http, url):
+	"""
+	Returns list of links to episode scripts.
+	Params:
+		http: PoolManager
+		url: string with url of show page with links to episode transcripts
+	"""
+	request = http.request('GET', url)
+	base_url = 'https://www.springfieldspringfield.co.uk'
+	episode_urls = []
+
+	if request.status == 200:
+		html = request.data
+		soup = BeautifulSoup(html, 'html.parser')
+		episode_container = soup.find_all('div', {'class': 'season-episodes'})
+
+		for container in episode_container:
+			for link in container.find_all('a', {'class': 'season-episode-title'}):
+				href = link.get('href')
+				full_link = '{}/{}'.format(base_url, href)
+				episode_urls.append(full_link)
+	else: 
+		print('Request failed for url: {}'.format(url))
+
+	return episode_urls
 
 def get_script_text(http, url):
 	"""
-	Grab script title and text from url. 
+	Grab script title and text from url. Returns [title, text].
 	Params:
 		http: PoolManager
 		url: string with url of script
@@ -37,7 +66,9 @@ def save_script(title, text):
 
 def main():
 	http = urllib3.PoolManager()
-	urls = ['https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=master-of-none-2015&episode=s02e08']
+
+	main_url = "https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=master-of-none-2015"
+	urls = get_urls(http, main_url)
 
 	for url in urls:
 		title, text = get_script_text(http, url)
