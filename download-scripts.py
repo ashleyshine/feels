@@ -59,8 +59,9 @@ def save_script(title, text):
 		title: string
 		text: string
 	"""
-	with open('./scripts/{}.txt'.format(title), 'w') as f:
-		print('Writing to ./scripts/{}.txt'.format(title))
+	file_name = '-'.join(title.split())
+	with open('./scripts/{}.txt'.format(file_name), 'w') as f:
+		print('Writing to ./scripts/{}.txt'.format(file_name))
 		f.write(text.strip())
 
 
