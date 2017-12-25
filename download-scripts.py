@@ -31,6 +31,7 @@ def get_urls(http, url):
 
 	return episode_urls
 
+
 def get_script_text(http, url):
 	"""
 	Grab script title and text from url. Returns [title, text].
@@ -44,12 +45,30 @@ def get_script_text(http, url):
 	if request.status == 200:
 		html = request.data
 		soup = BeautifulSoup(html, 'html.parser')
+
+		show_info = soup.find('h1').get_text()
+		season_and_ep = extract_season_and_episode(show_info)
 		title = soup.find('h3').get_text()
+
 		text = soup.find('div', {'class': 'scrolling-script-container'}).get_text()
 	else:
 		print("Request failed for url: {}".format(url))
 
-	return [title, text]
+	return ['-'.join([season_and_ep, title]), text]
+
+
+def extract_season_and_episode(text):
+	"""
+	Extract episode season & number info from string.
+	Params:
+		text: string
+	"""
+	regex_str = ".*(s\d+e\d+).*"
+	mo = re.search(regex_str, text, re.IGNORECASE)
+	if mo:
+		return mo.group(1)
+	else:
+		return ''
 
 
 def save_script(title, text):
