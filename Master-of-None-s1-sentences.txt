@@ -1,0 +1,290 @@
+********** s01e01 Plan B **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+Awesome.|1.0
+This looks delicious.|1.0
+Awesome!|1.0
+And then you throw a kid in the mix  And Zach's awesome.|1.0
+You're awesome!|1.0
+These Parm sandwiches are delicious.|1.0
+This one's good too!|0.875
+You're welcome.|0.8
+It is a great candle.|0.8
+I'm really proud of both of you.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+That's terrible.|-1.0
+That's a terrible plan.|-1.0
+I hate melons!|-1.0
+Dude babies are boring man.|-1.0
+That sounds horrible.|-1.0
+I hate my wife.|-0.8
+It was so crazy.|-0.6
+I haven't fucked in a year.|-0.6
+That's crazy.|-0.6
+It's crazy bro.|-0.6
+
+
+********** s01e02 Parents **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+He was the best.|1.0
+Iron Man movies are very good.|0.91
+Very good.|0.91
+Oh that's beautiful.|0.85
+That's great.|0.8
+Amazing pause  one of the best pauses we've heard all day.|0.8
+How about Hey son great work  or Hey son I'm proud of you?|0.8
+I have I have never ever heard my dad say the word proud.|0.8
+It's great.|0.8
+Oh that's great.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+Like what an insane journey.|-1.0
+The sickening!|-1.0
+The sickening  has begun.|-0.9
+So crazy to think that every immigrant's story  is probably that insane.|-0.8
+Lock the fucking doors!|-0.75
+Why are they so mad?|-0.625
+Can we order the chicken with broccoli please?|-0.6
+Go get the chicken.|-0.6
+That's cold.|-0.6
+You ate your pet chicken?|-0.6
+
+
+********** s01e03 Hot Ticket **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+Like the best food.|1.0
+You're the best man.|1.0
+You're the best.|1.0
+That'd be great!|1.0
+I have my best technicians analyzing the samples  as we speak.|1.0
+You're the best dude.|1.0
+You're You're awesome.|1.0
+It was awesome.|1.0
+Thought it was great.|0.8
+Great.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+It was hysterical.|-1.0
+The sickening!|-1.0
+I've never been so jealous of something that sounds so boring.|-1.0
+This is terrible.|-1.0
+We need to contain the sickening.|-0.9
+The sickening it got them all.|-0.9
+I hated all of that.|-0.9
+Ugh brutal.|-0.875
+Tell them she's being crazy!|-0.75
+Impossible to sustain a smoking habit  in London these days.|-0.667
+
+
+********** s01e04 Indians on TV **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+Great job!|1.0
+I think you'd be perfect for Srikumar the immigrant.|1.0
+So I just bought the rights to Perfect Strangers.|1.0
+It's delicious.|1.0
+Perfect.|1.0
+The show creator says Dev and Ravi are perfect.|1.0
+I am proud of you.|0.8
+Isn't this great?|0.8
+Great to meet you guys.|0.8
+Oh popchips are great man.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+Oh that was insane.|-1.0
+Ugh this kid is the worst.|-1.0
+This is insane.|-1.0
+Dude I got the worst agents man.|-1.0
+It was a really stupid joke I never should have made.|-0.8
+But um listen some bad news.|-0.7
+I'm trying to get this money  I'm trying to get this Friends money and you fucking it up.|-0.6
+Where are the fucking breadsticks?|-0.6
+Do I look too casual?|-0.5
+Hey man is this business casual?|-0.5
+
+
+********** s01e05 The Other Man **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+Nina you're very attractive.|1.0
+Oh Gere at his best.|1.0
+Great!|1.0
+This is awesome.|1.0
+That's very good.|0.91
+It's brilliant.|0.9
+That was incredible.|0.9
+But for me the joy comes from setting it all up.|0.8
+It's a great question.|0.8
+I had a great time tonight.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+The memory of that gruesome silhouette  against an Alpine sunset  is something I will never forget.|-1.0
+Oh that is disgusting.|-1.0
+Greg the moron screwed up my itinerary.|-0.8
+That sounds stupid.|-0.8
+Just get him to sign the fucking thing Greg!|-0.75
+No you fucking don't!|-0.75
+And I feel horrible about those ducks but  I think I should get the fuck out of here.|-0.7
+It was It was a bad place to set up shop.|-0.7
+I'm sorry bye!|-0.625
+This guy's fucking talking to me.|-0.6
+
+
+********** s01e06 Nashville **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+I had a really wonderful time.|1.0
+It's supposed to be really awesome so I booked us a tour.|1.0
+My sister used to always talk about living in Paris for a year  and it sounded so awesome.|1.0
+Oh my God I just thought of the perfect tag to end my pitch.|1.0
+Wouldn't that be awesome?|1.0
+That's good too!|0.875
+Well we could continue exploring this beautiful city  we flew all the way out here to visit  or we could go take a nap.|0.85
+That's what's so great about it.|0.8
+Great.|0.8
+Oh there's also this great landfill.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+That's terrifying.|-1.0
+I really hate rushing to the airport and I don't want to miss our flight.|-0.8
+Very depressing.|-0.78
+Um  I still feel very terrible about what's happened  and I wanted to get you a gift to say I'm sorry.|-0.75
+Oh that's too bad.|-0.7
+Even now  I got to pick between the ribs and the chicken.|-0.6
+I've been filming this black virus movie  called The Sickening.|-0.533
+He was very confused.|-0.52
+That's where you're wrong.|-0.5
+Sorry?|-0.5
+
+
+********** s01e07 Ladies and Gentlemen **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+That is awesome.|1.0
+At Garden Depot they have the best deals  on the biggest grills.|1.0
+Great so I just paid for these  and now I have to throw them out?|0.8
+Yes great consolation.|0.8
+Welcome to my world.|0.8
+It's great chatting with you.|0.8
+Well like I said I'm a great negotiator.|0.8
+It's a great girl.|0.8
+That sounds great.|0.8
+I'm a great negotiator get you those primo prices.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+You're disgusting.|-1.0
+Oh man that's the worst.|-1.0
+Well I guess in my head I'd like to think  someone isn't so awful that they wouldn't  introduce themselves to someone just 'cause they're a woman.|-1.0
+Yeah there are a million things that guys  have no clue about that are so annoying.|-0.8
+Well on a side note uh I realize I hate bars.|-0.8
+So annoying.|-0.8
+Girls are so annoying.|-0.8
+Oh man I got some bad news.|-0.7
+Cash bar and bad nachos.|-0.7
+Um we just all felt really bad  about what happened to you.|-0.7
+
+
+********** s01e08 Old People **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+Well I hope you know your grandpa was very proud of you.|1.0
+He's the best.|1.0
+Perfect.|1.0
+A guy from the neighborhood came up and said  You're beautiful.|0.85
+Just finishing this beautiful stallion's mane.|0.85
+I'm so happy Vincent.|0.8
+That's great.|0.8
+It's a great show.|0.8
+You know what would be great?|0.8
+You seem very nice.|0.78
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+The food here is terrible.|-1.0
+That's insane.|-1.0
+Between us what's the worst thing you've ever done?|-1.0
+He's horrible.|-1.0
+Dude that story was insane.|-1.0
+The sickening it got them all.|-0.9
+I hate that guy.|-0.8
+It doesn't seem so bad.|-0.7
+God now you've got me feeling bad.|-0.7
+Tracking's so bad it looks like  Arnold Schwarzenegger and Danny DeVito are twins.|-0.7
+
+
+********** s01e09 Mornings **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+I give the best massages.|1.0
+It was the greatest trip ever.|1.0
+Wonderful.|1.0
+And it's real nice meeting you.|0.9
+You're doing great.|0.8
+Great.|0.8
+I'm quite proud of my bumps.|0.8
+But it's a great opportunity  and I can make connections I can use with some of the cooler bands  I've always wanted to work with.|0.8
+They just asked if I could fly in to interview.|0.8
+That's great.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+That was insane.|-1.0
+But Princess Rachel was dating some evil prince  that lived in some kingdom called Seattle so she couldn't do it.|-1.0
+And I hate their music and I hate my job  and what and I fucking hate my life?|-0.8
+You're the dirty boo.|-0.6
+Stop fucking me.|-0.6
+You're going crazy.|-0.6
+No because then it would be like I'm fucking someone blurry.|-0.6
+It's so dirty in the stairway.|-0.6
+Um  are you implying that I'm the dirty one  in this relationship?|-0.6
+Let me invite him over  and feed him like chicken and dumplings.|-0.6
+
+
+********** s01e10 Finale **********
+
+***** Top 10 Positive Sentences *****
+Sentence|Polarity
+This is supposed to be the best taco.|1.0
+This is gonna be awesome.|1.0
+You took 45 minutes trying to find the best taco spot.|1.0
+I went to this friend's wedding  and they did their vows  and it was incredible you know?|0.9
+Dude this is incredible.|0.9
+You two are beautiful together.|0.85
+I'm so proud of you.|0.8
+Great.|0.8
+It's going great.|0.8
+You were great but we had to lose some stuff.|0.8
+
+***** Top 10 Negative Sentences *****
+Sentence|Polarity
+It's horrible.|-1.0
+Well maybe I'm just recovering  from that horrible disaster of a night I just had.|-1.0
+That's a horrible idea.|-1.0
+I think the sickening is happening!|-1.0
+The movie is called Sickening.|-0.9
+Really stupid.|-0.8
+She got sick.|-0.714
+That game sounds horrible.|-0.7
+A 20 or a 30 that's bad.|-0.7
+Because I tried to have a conversation  and you just started getting mad at me.|-0.625
+
+
