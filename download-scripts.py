@@ -71,29 +71,31 @@ def extract_season_and_episode(text):
 		return ''
 
 
-def save_script(title, text):
+def save_script(title, text, directory):
 	"""
-	Save script to text file.
+	Save script to text file in directory.
 	Params:
 		title: string
 		text: string
+        directory: string
 	"""
 	file_name = '-'.join(title.split())
-	with open('./scripts/{}.txt'.format(file_name), 'w') as f:
-		print('Writing to ./scripts/{}.txt'.format(file_name))
+	with open('{}/{}.txt'.format(directory, file_name), 'w') as f:
+		print('Writing to {}/{}.txt'.format(directory, file_name))
 		f.write(text.strip())
 
 
 def main():
-	http = urllib3.PoolManager()
+	save_directory = './master-of-none'
 
+	http = urllib3.PoolManager()
 	main_url = "https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=master-of-none-2015"
 	urls = get_urls(http, main_url)
-
+   
 	for url in urls:
 		title, text = get_script_text(http, url)
 		if title != '' and text != '':
-			save_script(title, text)
+			save_script(title, text, save_directory)
 
 if __name__=='__main__':
 	main()
